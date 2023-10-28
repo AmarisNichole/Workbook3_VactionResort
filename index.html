@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet1"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous" />
+        <link rel="stylesheet2" href="index.css" />
+
+        <title>Vacation Resort</title>
+    </head>
+    <body>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">Navbar</span>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bookings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dining</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Rentals</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0u-2THn0sBYe6BAH240wbtZMbPqODcdvPA&usqp=CAU" alt="Hotel Resort Overview" id="image">
+            <img src="data:image/jpeg;base64,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" alt="Hotel Room" id="image2">
+        <p>Welcome to our stunning beachfront resort, where the soothing rhythm
+            of the waves and the golden sands meet in perfect harmony to create
+            an unforgettable escape. Nestled on the pristine shores of this
+            tropical paradise, our resort offers a haven of luxury and
+            relaxation. The picturesque view of the azure sea, with the sun
+            casting a warm, golden glow, is a daily spectacle that our guests
+            can savor from the comfort of their own private balconies.
+
+            Our resort provides a diverse range of accommodations to suit every
+            traveler's needs. From spacious oceanfront suites to charming
+            bungalows nestled amid lush gardens, we cater to a variety of tastes
+            and preferences. Whether you're seeking a romantic getaway, a family
+            adventure, or simply a tranquil retreat, we have the perfect lodging
+            option for you.</p>
+
+        <p>Indulge your senses with our world-class amenities and activities.
+            Our pristine beach beckons sunbathers, while water sports
+            enthusiasts can dive into thrilling adventures like snorkeling and
+            parasailing. For those looking to unwind, our spa offers
+            rejuvenating treatments and massages, and our beachfront restaurant
+            serves delectable dishes crafted from the freshest local
+            ingredients.
+
+            At night, the resort comes alive with entertainment, from vibrant
+            beach parties to soothing live music by the bonfire. The starlit sky
+            above mirrors the glittering reflections of the waves below,
+            creating a magical ambiance that's perfect for both romance and
+            relaxation.</p>
+    </body>
+</html>
